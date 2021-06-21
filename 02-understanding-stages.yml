@@ -10,7 +10,7 @@ stages:
   - stage: Build
     jobs:
     - job: FirstJob
-      Steps:
+      steps:
       - bash: echo build first job
     - job: secondJob
       steps:
